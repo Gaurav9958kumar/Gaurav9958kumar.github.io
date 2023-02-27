@@ -23,7 +23,7 @@ import { BsBootstrap } from "react-icons/bs";
 
 const Skills = () => {
   return (
-    <Box id="skills" bg='#202A44' color='white'>
+    <Box id="skills" bg='#202A44' color='white' >
       <Heading
         textAlign="center"
         pt="85"

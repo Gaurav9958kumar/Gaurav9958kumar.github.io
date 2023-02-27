@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isHamburger, setIsHamburger] = useState(false);
 
   return (
-    <div className='navbar'>
+    <div className='navbar' id="nav-menu">
       <Text fontSize={32} ml="5">
         Gaurav<span style={{ color: "goldenrod", fontSize: "2rem" }}>Kumar</span>
       </Text>
@@ -27,6 +27,7 @@ const Navbar = () => {
           offset={-100}
           duration={1000}
           className="Home"
+          class="nav-link home"
         >
           Home
         </Link>
@@ -38,6 +39,7 @@ const Navbar = () => {
           offset={-100}
           duration={500}
           className="AboutMe"
+          class="nav-link about"
         >
           About
         </Link>
@@ -49,6 +51,7 @@ const Navbar = () => {
           smooth={true}
           offset={-100}
           duration={500}
+          class="nav-link skills"
         >
           Skills
         </Link>
@@ -60,6 +63,7 @@ const Navbar = () => {
           smooth={true}
           offset={-100}
           duration={500}
+          class="nav-link projects"
         >
           Projects
         </Link>
@@ -71,12 +75,14 @@ const Navbar = () => {
           smooth={true}
           offset={-100}
           duration={500}
+          class="nav-link contact"
         >
           Contact
         </Link>
         
         <a
-          className="Resume"
+        
+          class="nav-link resume"
           href="https://drive.google.com/file/d/1bCimhsKdM7poUTi3EVd7JtHm5MTXo7Gu/view?usp=sharing"
           target='_blank'
         >

@@ -5,7 +5,7 @@ import React from "react";
 const About = () => {
 
   return (
-    <Box id="about" bg='#202A44' color='white'>
+    <Box id="about" bg='#202A44' color='white'  class="about section">
       <Heading
         textAlign="center"
         color="#48BB78"
