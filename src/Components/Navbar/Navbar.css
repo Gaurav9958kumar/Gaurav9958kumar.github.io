@@ -1,5 +1,5 @@
 
-.nav-menu {
+.navbar {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -49,7 +49,7 @@ ul *:hover{
   .nav-links {
     display: none;
   }
-  .nav-menu {
+  .navbar {
     display: flex;
 
   }

@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isHamburger, setIsHamburger] = useState(false);
 
   return (
-    <div className='nav-menu'>
+    <div className='navbar'>
       <Text fontSize={32} ml="5">
         Gaurav<span style={{ color: "goldenrod", fontSize: "2rem" }}>Kumar</span>
       </Text>
